@@ -1,0 +1,31 @@
+@import 'bootstrap';
+ 
+ 
+ 
+ body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.container {
+    padding: 10px 0;
+}
+
+#sidebar {
+    float:right;
+}
+
+#content {
+    margin-left: 0;
+}
+
+.img-responsive {
+    max-width: 10%;
+    height: auto; 
+    display: block;
+    
+}
+
+
+#grid[data-columns]::before {
+	content: '3 .column.size-1of3';
+}
